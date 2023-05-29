@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: databases
+  server:
+    port:8082
+datasources:
+  default:
+#    schema-generate: CREATE
+#    username: postgres
+#    password: postgres
+#    url: jdbc:postgresql://localhost:5432/lab-8
+#    dialect: POSTGRES
+    schema-generate: CREATE
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/insurance_company_db
+    dialect: MYSQL

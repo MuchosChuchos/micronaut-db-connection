@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [app-name, h2, junit, maven, readme, spring-boot-app, spring-boot-java, spring-boot-java-application, spring-boot-micronaut-data, spring-boot-starter-web, yaml]
